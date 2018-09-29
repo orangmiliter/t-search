@@ -1,3 +1,4 @@
+# T-Search
 t-search adalah alat bantu pencarian Telegram, berjalan dengan bantuan electronjs yang menjalan kan kode php dari "https://github.com/AJ-TechSoul/runphp"
 # Mengintall kebutuhan T-Search
 Untuk Menjalankan T-Seach kita cukup memasang beberapa kebutuhan berikut :
