@@ -1,0 +1,24 @@
+{
+  "name": "T-Search",
+  "version": "0.1.0",
+  "description": "Alat Bantu Pencarian Telegram",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/AJ-TechSoul/ELECTRON-4-PHP",
+  "keywords": [
+    "Electron",
+    "php",
+    "techsoul"
+  ],
+  "author": "orangmiliter",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.7.12",
+    "electron-packager": "^11.0.1"
+  },
+  "dependencies": {
+    "php-server-manager": "^1.2.1"
+  }
+}
