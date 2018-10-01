@@ -26,4 +26,4 @@ for url in search("'%s' site:t.me" % str(keyword), stop=150):
 lis = [x.rstrip() for x in open('output/%s.txt' % str(keyword), 'r').readlines() if len(x.rstrip())]
 for link in lis:
    rndm = random.random()
-   os.system("/usr/local/bin/html2latex_webkit2png.py %s -o output/%s/%s.png" % (link,hasil, str(rndm)))
+   os.system("wget -nH --cut-dirs=1 --output-document=output/%s/%s.html --convert-links %s" % (hasil, str(rndm), link))
