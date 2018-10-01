@@ -12,6 +12,8 @@ Untuk Menjalankan T-Seach kita cukup memasang beberapa kebutuhan berikut :
   pip install argparse
 # google
   pip install google
+# webkit2png
+  (https://github.com/adamn/python-webkit2png)
 
 # Menjalankan T-Search
 git clone https://github.com/orangmiliter/t-search.git  
