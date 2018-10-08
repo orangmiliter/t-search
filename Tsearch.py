@@ -6,10 +6,10 @@ from googlesearch import search
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--target", help="Target")
+parser.add_argument("--target", help="Target", nargs='+')
 args = parser.parse_args()
-
-keyword = str(args.target)
+argspace = ' '.join(args.target)
+keyword = str(argspace)
 
 ganti = "%s" % keyword
 hasil = ganti.replace(" ", "_")
