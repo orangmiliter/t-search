@@ -20,3 +20,4 @@ npm install
 sudo npm start  
 
 ![alt text](https://github.com/orangmiliter/t-search/blob/master/screenshot/1.png)
+![alt text](https://github.com/orangmiliter/t-search/blob/master/screenshot/2.png)
