@@ -16,7 +16,7 @@ hasil = ganti.replace(" ", "_")
 
 os.mkdir("output/%s" % hasil)
 
-for url in search("'%s' site:t.me" % str(keyword), stop=10):
+for url in search("'%s' site:t.me" % str(keyword), stop=50):
     file = open("output/%s.txt" % str(keyword), 'a')
     file.write("%s\n" % url)
     file.close()
