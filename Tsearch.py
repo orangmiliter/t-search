@@ -2,7 +2,7 @@ import argparse
 import time
 import os
 import random
-from googlesearch import search
+from gsearch.googlesearch import search
 
 
 parser = argparse.ArgumentParser()
@@ -16,9 +16,9 @@ hasil = ganti.replace(" ", "_")
 
 os.mkdir("output/%s" % hasil)
 
-for url in search("'%s' site:t.me" % str(keyword), stop=50):
+for url in search('"%s" site:t.me' % str(keyword), num_results=50):
     file = open("output/%s.txt" % str(keyword), 'a')
-    file.write("%s\n" % url)
+    file.write("%s\n" % url[1])
     file.close()
 
 
