@@ -11,7 +11,7 @@ Untuk Menjalankan T-Seach kita cukup memasang beberapa kebutuhan berikut :
 # argparse
   pip install argparse
 # google
-  pip install google
+  pip install gsearch 
 
 # Menjalankan T-Search
 git clone https://github.com/orangmiliter/t-search.git  
